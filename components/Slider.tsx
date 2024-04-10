@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 import { images } from "../public/constants";
-import Description from "./Description";
+import Description from "./SliderDescription";
 
 const Slider = () => {
   const [activeImage, setActiveImage] = useState(0);

@@ -2,19 +2,22 @@ import Image from "next/image";
 import OurEquipment from "../components/OurEquipment";
 import UnlockImage from "../public/unlock.jpg";
 import Slider from "../components/Slider";
-import Link from "next/link";
-import { RiBox3Line } from "react-icons/ri";
 import {
-  FaCheck,
   FaFacebookSquare,
-  FaHeart,
   FaInstagram,
   FaPinterest,
   FaTwitter,
 } from "react-icons/fa";
 import MembershipCard from "../components/MembershipCard";
-import { BarLoader, ClipLoader } from "react-spinners";
-import LoadingPage from "./loading";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "LevelUp Gym - Elevate Your Fitness Journey",
+  description:
+    "LevelUp Gym offers a state-of-the-art facility and personalized fitness programs to help you achieve your health goals. Elevate your fitness journey with us today!",
+  keywords:
+    "gym, fitness center, health and wellness, personal training, group fitness classes, strength training, cardio workouts, nutrition guidance, exercise routines, gym membership, workout facility, fitness community, wellness programs, exercise equipment, fitness goals, fitness motivation, fitness journey, LevelUp Gym.",
+};
 
 export default function Home() {
   return (

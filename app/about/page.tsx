@@ -16,6 +16,15 @@ import OurMission2 from "../../public/our-mission2.jpg";
 
 import Image from "next/image";
 import TrainerCard from "../../components/TrainerCard";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us | Discover LevelUp Gym - Your Premier Fitness Destination",
+  description:
+    "Dive into the story behind LevelUp Gym, your premier fitness destination. Learn about our mission, values, and commitment to helping you elevate your fitness journey.",
+  keywords:
+    "gym, fitness center, health and wellness, personal training, group fitness classes, strength training, cardio workouts, nutrition guidance, exercise routines, gym membership, workout facility, fitness community, wellness programs, exercise equipment, fitness goals, fitness motivation, fitness journey, LevelUp Gym.",
+};
 
 export default function AboutPage() {
   return (

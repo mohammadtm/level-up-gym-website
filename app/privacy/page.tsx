@@ -1,4 +1,13 @@
+import { Metadata } from "next";
 import React, { PropsWithChildren } from "react";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | LevelUp Gym - Protecting Your Personal Information",
+  description:
+    "Learn how LevelUp Gym protects your personal information with our comprehensive Privacy Policy. We are committed to transparency, security, and upholding your privacy rights.",
+  keywords:
+    "gym, fitness center, health and wellness, personal training, group fitness classes, strength training, cardio workouts, nutrition guidance, exercise routines, gym membership, workout facility, fitness community, wellness programs, exercise equipment, fitness goals, fitness motivation, fitness journey, LevelUp Gym.",
+};
 
 export default function PrivacyPage() {
   return (

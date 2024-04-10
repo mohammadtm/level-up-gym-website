@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
 import {
@@ -7,6 +8,14 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { FaArrowTurnDown, FaArrowTurnUp } from "react-icons/fa6";
+
+export const metadata: Metadata = {
+  title: "Contact Us | Reach Out to LevelUp Gym for Inquiries and Assistance",
+  description:
+    "Need assistance or have questions? Contact LevelUp Gym for personalized support and assistance. Our dedicated team is here to help you with any inquiries regarding memberships, classes, or general information.",
+  keywords:
+    "gym, fitness center, health and wellness, personal training, group fitness classes, strength training, cardio workouts, nutrition guidance, exercise routines, gym membership, workout facility, fitness community, wellness programs, exercise equipment, fitness goals, fitness motivation, fitness journey, LevelUp Gym, contact us, phone, address, email",
+};
 
 export default function ContactPage() {
   return (

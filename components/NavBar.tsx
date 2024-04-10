@@ -45,7 +45,7 @@ export default function () {
   const pathName = usePathname();
   return (
     <div
-      className={`fixed z-10 flex h-[10%] min-h-[60px] w-screen flex-row items-center justify-between px-10  ${scrollPosition > 14 && "backdrop-brightness-50"} duration-200`}
+      className={`fixed z-10 flex h-[10%] min-h-[60px] w-screen flex-row items-center justify-between px-10  ${scrollPosition > 0 && "backdrop-brightness-50"} duration-200`}
     >
       <Link href="/">
         <h1 className="min-[60px] cursor-pointer text-2xl font-bold uppercase text-yellow-500">
